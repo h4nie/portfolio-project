@@ -34,7 +34,8 @@ p {
   line-height: 36px;
   margin: 30px 0 60px;
 }
-.hero a {
+.hero a,
+.about-hero a {
   background-color: #6c63ff;
   color: white;
   text-decoration: none;
@@ -42,6 +43,23 @@ p {
   border-radius: 4px;
   font-size: 18px;
   font-weight: 500;
+}
+.about-hero {
+  padding: 160px 0 200px;
+}
+.about-hero-content {
+  padding: 30px 60px;
+}
+.about-hero h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+}
+.about-hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
 }
 .btn-branding {
   color: #6c63ff;
@@ -65,6 +83,10 @@ p {
   .hero h1 {
     font-size: 44px;
     line-height: 2;
+  }
+  .about-hero {
+    padding: 0;
+    text-align: center;
   }
   .project-desciption {
     padding: 0;
