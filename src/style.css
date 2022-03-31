@@ -35,7 +35,7 @@ p {
   margin: 30px 0 60px;
 }
 .hero a,
-.about-hero a {
+.content-container a {
   background-color: #6c63ff;
   color: white;
   text-decoration: none;
@@ -44,22 +44,32 @@ p {
   font-size: 18px;
   font-weight: 500;
 }
-.about-hero {
+.content-container {
   padding: 160px 0 200px;
 }
-.about-hero-content {
+.content {
   padding: 30px 60px;
 }
-.about-hero h1 {
+.content-container h1 {
   font-weight: 700;
   font-size: 64px;
   line-height: 85px;
 }
-.about-hero h2 {
+.content-container h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
+}
+.content-container h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.content-container p {
+  font-size: 14px;
+  line-height: 21px;
 }
 .btn-branding {
   color: #6c63ff;
@@ -84,7 +94,7 @@ p {
     font-size: 44px;
     line-height: 2;
   }
-  .about-hero {
+  .content-container {
     padding: 0;
     text-align: center;
   }
