@@ -1,5 +1,6 @@
 h1,
-h2 {
+h2,
+h4 {
   font-family: "Playfair Display", serif;
 }
 h2 {
@@ -111,11 +112,45 @@ nav a:hover,
 li.active a {
   color: #6c63ff;
 }
+footer .contact-box {
+  background-color: #f9f7fe;
+  padding: 20px 120px;
+}
 
+footer h4 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+footer .emial-link a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+footer .contact-icon a {
+  color: #6c63ff;
+  font-size: 18px;
+  margin: 20px;
+  padding: 8px 12px;
+  background: #f9f7fe;
+  border-radius: 50%;
+  transition: all 200ms ease-in-out;
+}
+footer .contact-icon a:hover {
+  color: #f9f7fe;
+  background: #6c63ff;
+}
 @media (max-width: 991px) {
   h2 {
     font-size: 44px;
   }
+  footer h4 {
+    font-size: 26px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
